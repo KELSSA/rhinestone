@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,300&display=swap');
+.body{
+ position: absolute;
+width: 100%;
+height:100vh;
+background: #E5E5E5;
+box-sizing: border-box;
+
+}
+
+.container{
+position: absolute;
+width: 60%;
+height: 70vh;
+margin: 5em 14em;
+box-shadow: 2px 4px 24px rgba(0, 0, 0, 0.15);
+border-radius: 0px 0px 10px 0px;
+}
+
+
+
+.sideRow{
+position: absolute;
+width: 50%;
+height: 70vh;
+left: 22em;
+background: #14213D
+}
+
+.leftRow{
+    position: absolute;
+    width: 70%;
+    height: 70vh;
+    left:-3em;
+    background: white;
+    }
+
+.forward{
+margin-top:7em;
+margin-left: -3em;
+width: 100%;
+}
+
+
+.form{
+margin-top: 2em;
+margin-left: 2em;
+display:block;
+}
+
+input,label{
+   display: block;
+   margin-top: 1.5em;
+   height: 5vh;
+   width: 80%;
+  margin-left: 0.8em;
+  border-radius: 3px;
+  border-width: 0.1px;
+  font-family: 'poppins';
+  font-size: 0.8rem;
+}
+
+input:focus{
+    outline: none;
+  
+}
+
+button{
+    
+        background-color:#FCA311;
+        border: none;
+        margin-top: 0.5em;
+        color: white;
+        outline: none;
+        width: 40%;
+         margin-left: 6em;
+         height: 6vh;
+         border-radius: 3px;
+         box-shadow:0 3px 5px 0 rgba(5, 5, 5, 0.2) ;
+      
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #FFC93C;;
+}
+
+button:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-family: 'poppins';
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+.text{
+    margin-left: 14em;
+    margin-top: 1.5em;
+    display: flex;
+    list-style-type: none;
+     
+}
+
+a{
+    margin-left: 1em;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 0.84em;
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #FCA311;
+}
+
+.active{
+    color: #FCA311;
+    font-weight: 300;
+}
+
+.company{
+ position: absolute;
+left: 14px;
+top: 1em;
+font-family: Poppins;
+font-weight: 800;
+font-size: 1.5rem;
+line-height: 45px;
+}
+
+.guru{
+    color:#FCA311;
+}
+
+
+.eye{
+
+ margin-top: -3.5em;
+    margin-left: 20em;   
+
+}
+
+.eye:hover{
+    transition: all 0.2s ease-in-out;
+    color: #FCA311;
+    cursor: pointer;
+}
