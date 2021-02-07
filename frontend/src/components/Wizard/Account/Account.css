@@ -1,0 +1,93 @@
+.form1 {
+  /* display: flex; */
+  justify-content: space-around;
+  margin-top: 3em;
+  /* margin-left: 5em; */
+}
+.pic {
+  /* align-items: center; */
+  margin-left: 7em;
+  position: relative;
+  margin-bottom: 2em;
+}
+/* .form1 input {
+  margin-bottom: 15px;
+} */
+
+.text {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  opacity: 0;
+  /* bottom: 100%; */
+  /* margin-top: 0.5em;
+  margin-left: 1em; */
+}
+
+/* label:hover {
+  opacity: 0.2;
+} */
+
+.form {
+  /* float: right;
+    width: 70%; */
+  margin-left: 2em;
+  margin-top: 0.1em;
+}
+
+.form button {
+  margin-left: 12em;
+}
+
+@media only screen and (min-width: 600px) {
+  .form1 {
+    width: 100%;
+    margin-left: 12em;
+    margin-top: 5em;
+  }
+
+  .form1 input {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .form1 {
+    display: flex;
+    margin-left: 4em;
+    margin-top: 5em;
+  }
+  .form {
+    /* float: right;
+      width: 70%; */
+    margin-left: 10em;
+    margin-top: 0.8em;
+  }
+  .form1 input {
+    width: 100% !important;
+  }
+}
+
+/* #Form1 #profilepic { */
+/* position: absolute; */
+/* left: 11em; */
+/* width: 120px; */
+/* top: 7em; */
+/* opacity: 0; */
+/* background-color: rgb(238, 53, 53); */
+/* transition: 0.5s; */
+/* cursor: pointer; */
+/* display: none; */
+/* } */
+
+/* .pic > input {
+  display: none;
+} */
+
+/* #Form1 .pic {
+  cursor: pointer;
+} */
+
+/* #Form1:hover #profilepic {
+  opacity: 1;
+} */
