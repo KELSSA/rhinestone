@@ -1,0 +1,12 @@
+/* .App {
+  text-align: center;
+} */
+
+/* body {
+  background: #e5e5e5 !important; */
+/* box-sizing: border-box; */
+/* } */
+
+.active-link {
+  background-color: rgba(240, 37, 37, 0.979) !important;
+}

@@ -1,0 +1,48 @@
+.log {
+  margin-top: 2em;
+  width: 90%;
+  margin-left: 0.8em;
+}
+
+.company {
+  position: absolute;
+  left: 14px;
+  top: 0.75em;
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 45px;
+}
+
+.Login .sign {
+  position: absolute;
+  left: 4em;
+  top: 6em;
+  font-family: Poppins;
+  font-size: 0.8rem;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.Login .rhine {
+  position: absolute;
+  left: 4em;
+  top: 9em;
+  font-family: Poppins;
+  font-size: 0.8rem;
+
+  line-height: 45px;
+}
+
+.Login .txt {
+  margin-left: 14em;
+  margin-top: 1.7em;
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 10em;
+}
+
+.Login .para {
+  margin-bottom: 9em;
+  margin-left: 3em;
+}
