@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 mongoose.pluralize();
 mongoose
   .connect(
-    "mongodb+srv://kellme:letmein3@cluster0.lx7ml.mongodb.net/Transbase?retryWrites=true&w=majority",
+    "mongodb://localhost:27017/electricity-tokens",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
